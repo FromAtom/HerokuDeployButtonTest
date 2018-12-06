@@ -1,30 +1,5 @@
 {
   "name": "Small Sharp Tool",
   "description": "あああああああああああ（）（）（あああああああ",
-  "keywords": [
-    "productivity",
-    "HTML5",
-    "scalpel"
-  ],
   "repository": "https://github.com/FromAtom/HerokuDeployButtonTest",
-  "scripts": {
-    "postdeploy": "bundle exec rake bootstrap"
-  },
-  "env": {
-    "SLACK_OAUTH_ACCESS_TOKEN": {
-      "description": "xoxp-XXXXXXXX-XXXXXXXX-XXXXX"
-    },
-    "ESA_ACCESS_TOKEN": {
-      "description": "UUUUUUUUUUUU"
-    }
-  },
-  "image": "heroku/ruby",
-  "addons": [
-    {
-      "plan": "redistogo:nano"
-    },
-    {
-      "plan": "papertrail:choklad"
-    }
-  ]
 }
