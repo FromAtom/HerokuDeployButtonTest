@@ -13,6 +13,9 @@
   "env": {
     "SLACK_OAUTH_ACCESS_TOKEN": {
       "description": "xoxp-XXXXXXXX-XXXXXXXX-XXXXX"
+    },
+    "ESA_ACCESS_TOKEN": {
+      "description": "URL展開の対象にするTeamで発行した Personal Access Token （要Read権限）"
     }
   },
   "image": "heroku/ruby",
